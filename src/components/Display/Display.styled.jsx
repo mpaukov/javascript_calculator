@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   width: 100%;
   color: #ffffff;
+  overflow: hidden;
   p {
     margin: 0;
     font-family: "Geostar Fill", cursive;

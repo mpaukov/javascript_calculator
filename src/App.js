@@ -43,6 +43,7 @@ function App() {
 
   useEffect(() => {
     if (history.endsWith("=") && !isNaN(+history[history.length - 2])) {
+      // eslint-disable-next-line no-useless-escape
       const s = history.match(/[\+ \- \* \/\ \=]*(\.\d+|\d+(\.\d+)?)/g) || [];
 
       let t = [s[0]];

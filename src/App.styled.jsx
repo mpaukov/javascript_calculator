@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Calculator = styled.div`
   position: relative;
   margin: 80px auto 0 auto;
-  width: 334px;
+  width: 320px;
   background-color: #000000;
   padding: 5px;
   border: 2px solid #fd9902;
